@@ -1,0 +1,126 @@
+
+
+
+
+.height-container-fluit{
+    height: 150px;
+}
+
+.bg-top-nav{
+    background-color: #232f3e;
+}
+
+
+.custom-top-nav,.bg-top-nav p{
+    font-size: 14px;
+}
+
+.custom-top-nav a{
+    padding: 10px;
+}
+
+.custom-top-nav .border-left{
+    border-color: 4a4a4a!important;
+}
+
+.custom-btn-font-size{
+    font-size: 14px;
+}
+
+.shop-card{
+    background-color: transparent;
+}
+
+.shop-card span{
+    font-size: 16px;
+}
+
+
+.shop-card i{
+    vertical-align: -2px;
+}
+
+
+.custom-dropdown-toggle::after{
+    vertical-align: 0;
+}
+
+
+.basket{
+    width: 300px!important;
+}
+
+.basket a{
+    font-size: 14px;
+}
+
+.basket a img{
+    width: 64px;
+    height: 64px;
+}
+
+
+.custom-navbar-nav {
+
+    font-size: 15px;
+}
+
+.custom-navbar-nav .nav-item,.custom-navbar{
+    position: unset;
+}
+
+
+.custom-btn{
+   
+    position: absolute;
+    top: -75px;
+    right: -50px;
+
+}
+
+
+.custom-navbar-nav .nav-item .dripdown-menu{
+    color: white;
+    border-radius: 0;
+    top: 67px;
+  
+}
+
+.dropdown-image img{
+position: absolute;
+left: 0;
+bottom: 0;
+width: 350px;
+height: 200px;
+}
+
+.dropdown-image ul.nav li a{
+    color: #000 !important;
+}
+
+.dropdown-image ul.nav li a i{
+    vertical-align: -2px;
+}
+
+
+.dropdown-image ul.nav li a{
+    transition: .5s ease;
+}
+
+
+.dropdown-image ul.nav li a:hover{
+margin-right: 7px;
+color: rgb(28, 28, 192)!important;
+}
+
+
+
+
+.input-top-nav-search::-webkit-input-placeholder{
+    font-size: 16px;
+}
+
+
+.bg{
+    background-color: #232f3e;
+}

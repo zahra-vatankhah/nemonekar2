@@ -1,0 +1,42 @@
+.p-title,
+.p-price {
+    font-size: 16px;
+}
+
+
+.p-img {
+    max-width: 175px;
+    align-self: center;
+}
+
+
+.custom-card {
+    border: none;
+    border-radius: 0;
+}
+
+
+
+.custom-card:hover {
+    box-shadow: 0 0 10px 3px #efefef;
+    z-index: 1;
+}
+
+
+.owl-them {
+    color: rgb(100, 78, 78);
+    font-size: 20px;
+    border-bottom: 3px solid red;
+    width: 100px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+
+
+
+.ss {
+
+    max-height: 250px;
+}

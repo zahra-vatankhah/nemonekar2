@@ -1,0 +1,16 @@
+.shiping-wraper img {
+    width: 55px;
+    height: 57px;
+    margin-left: 10px;
+}
+
+
+.shiping-wraper p {
+    font-size: 11px;
+}
+
+
+
+.wrapper-ads img {
+    height: fit-content;
+}

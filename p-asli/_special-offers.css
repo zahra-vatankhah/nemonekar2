@@ -1,0 +1,181 @@
+.custom-nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+}
+
+
+
+.custom-nav-tabs .nav-link.active,
+.custom-nav-tabs .nav-item.show .nav-link {
+    color: rgb(238, 99, 9);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+.custom-nav-tabs .nav-link:hover,
+.custom-nav-tabs .nav-link:focus {
+    border-color: transparent;
+}
+
+
+
+.offer-details{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.offer-details a {
+
+    font-size: 16px;
+    color: #9891ff;
+}
+
+
+.offer-details .offer-rating i {
+    color: #caca14;
+    font-size: 16px;
+}
+
+
+.offer-details .offer-pric {
+
+
+    color: red;
+    font-size: 16px;
+}
+
+
+
+.offer-details .offer-pric span {
+    font-size: 16px;
+    color: #565555;
+}
+
+
+.offer-details .count-down-timer {
+    font-size: 17px;
+
+}
+
+
+
+.offer-details .count-down-timer #demo span {
+    background-color: #efefef;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 14px;
+}
+
+
+
+.offer-details .count-down-timer #demo #day,
+.offer-details .count-down-timer #demo #hour,
+.offer-details .count-down-timer #demo #minute,
+.offer-details .count-down-timer #demo #second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-expier-text {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+}
+
+.offer-expier-text .offer-expire-text-inner {
+    padding: 10px;
+    font-size: 17px;
+}
+
+#day,
+#hour,
+#minute,
+#second {
+    position: relative;
+}
+
+#demo #day::after {
+    content: 'روز';
+    position: absolute;
+    top: 35px;
+    right: 8px;
+
+}
+
+#demo #hour::after {
+    content: 'ساعت';
+    position: absolute;
+    top: 35px;
+    right: 8px;
+
+}
+
+
+
+#demo #minute::after {
+    content: 'دقیقه';
+    position: absolute;
+    top: 35px;
+    right: 8px;
+
+}
+
+
+
+#demo #second::after {
+    content: 'ثانیه';
+    position: absolute;
+    top: 35px;
+    right: 8px;
+
+}
+
+
+.offer-product-image{
+    overflow: hidden;
+    height: 240px;
+
+}
+
+.offer-product-image img{
+    width: 240px;
+}
+
+
+.offer-product-image:hover .first-image, .offer-product-image:hover .second-image{
+    transform: translateY(-240px);
+ 
+}
+
+
+.offer-product-image .first-image,.offer-product-image .second-image{
+    z-index: 1;
+    transition: .5s ease;
+}
+
+
+.s-0-box-shadow{
+    box-shadow: 0 0 1px 1px #efefef;
+    z-index: 1;
+}
+
+
+
+.offer-section-title{
+    right: 0;
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+    font-size: 20px;
+}
